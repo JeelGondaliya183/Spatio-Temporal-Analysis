@@ -3,6 +3,8 @@ Analysis and Visualization of the AIS data by using Geopandas and Matplotlib, al
 
 ## Instruction to execute the Application:
 
+*** Download the zip file in order to see the code and output, not visible in github because of the file size (> 25 MB) ***
+
 1.	Extract the .zip file and Install the required packages.
 	-	pip install -U Shapely -user
 	-	pip install -U geopandas –user
