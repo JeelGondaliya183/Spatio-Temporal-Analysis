@@ -1,6 +1,32 @@
 # Spatio-Temporal-Analysis
 Analysis and Visualization of the AIS data by using Geopandas and Matplotlib, also clustering the ports based on AIS message density.
 
+## About the AIS Database:
+
+The Automatic Identification System (AIS) database is PostGIS database acquired by the VOLPE National Transportation Systems Center from the U.S. Coast Guard’s
+Nationwide Automatic Identification System (NAIS) network.
+
+| Field                  | Description                                                               |
+| -----------------------|:-------------------------------------------------------------------------:| 
+| event_time             | UTC time when the data were generated (text).                             | 
+| location.coordinates.0 | Latitude coordinate (decimal degrees) of the vessel’s position (text).    |  
+| location.coordinates.1 | Longitude coordinate (decimal degrees) of the vessel’s position (text).   |   
+| mmsi                   | Maritime Mobile Service Identity number of the vessel (text)              |
+| sog                    | Vessel’s speed over ground (text).                                        |
+| cog                    | Vessel’s course over ground (text).                                       |
+
+event_time:                
+location.coordinates.0
+location.coordinates.1
+position_accuracy
+mmsi
+sog
+cog
+
+## Motivation:
+## Data Analysis:
+
+
 ## Instruction to execute the Application:
 
 *** Download the zip file in order to see the code and output, not visible in github because of the file size (> 25 MB) ***
