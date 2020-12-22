@@ -15,14 +15,6 @@ Nationwide Automatic Identification System (NAIS) network.
 | sog                    | Vessel’s speed over ground (text).                                        |
 | cog                    | Vessel’s course over ground (text).                                       |
 
-event_time:                
-location.coordinates.0
-location.coordinates.1
-position_accuracy
-mmsi
-sog
-cog
-
 ## Motivation:
 ## Data Analysis:
 
