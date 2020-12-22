@@ -1,5 +1,8 @@
 # Spatio-Temporal-Analysis
-Analysis and Visualization of the AIS data by using Geopandas and Matplotlib, also clustering the ports based on AIS message density.
+
+## Motivation:
+
+Analytical approach in spatial temporal dynamic to focus on the variation of the Ships traffic volume of each port in time dimension
 
 ## About the AIS Database:
 
@@ -15,13 +18,10 @@ Nationwide Automatic Identification System (NAIS) network.
 | sog                    | Vessel’s speed over ground (text).                                        |
 | cog                    | Vessel’s course over ground (text).                                       |
 
-## Motivation:
-## Data Analysis:
-
 
 ## Instruction to execute the Application:
 
-*** Download the zip file in order to see the code and output, not visible in github because of the file size (> 25 MB) ***
+*** Clone the project to see the code and output, not visible in github because of the file size (> 25 MB) ***
 
 1.	Extract the .zip file and Install the required packages.
 	-	pip install -U Shapely -user
